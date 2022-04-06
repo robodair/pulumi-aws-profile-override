@@ -10,7 +10,7 @@ pulumi-aws >= 5.0.0:
 $ AWS_SECRET_ACCESS_KEY=bar AWS_ACCESS_KEY_ID=foo pulumi preview
 ...
 Exception: invoke of aws:index/getCallerIdentity:getCallerIdentity failed: invocation of aws:index/getCallerIdentity:getCallerIdentity returned an error: 1 error occurred:
-    	* error configuring Terraform AWS Provider: failed to get shared config profile, automation
+    	* error configuring Terraform AWS Provider: failed to get shared config profile, profile-that-doesnt-exist
     error: an unhandled error occurred: Program exited with non-zero exit code: 1
 ...
 ```
